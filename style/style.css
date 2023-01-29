@@ -1,0 +1,231 @@
+.navbar {
+    height: 55px;
+    background-color: white !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vh;
+    z-index: 100;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-bottom: 1px solid rgb(216, 212, 212) !important;
+}
+
+input.searche {
+    height: 36px;
+    max-width: 600px;
+    width: 100%;
+    background-color: #eef3f8;
+    border: 0;
+}
+
+#aramaYap::placeholder {
+    font-size: 14px;
+    color: gray;
+    background-image: url(/images/search-solid.svg);
+    background-repeat: no-repeat;
+    background-size: 7%;
+    padding-left: 20px;
+}
+
+.body {
+    background-color: #f3f2ef;
+}
+
+.nav-link {
+    padding: 0 5px !important;
+}
+
+.menutext {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-top: 5px;
+    font-weight: lighter;
+}
+
+.menutext:hover {
+    color: black;
+}
+
+button.mediatext {
+    color: #5f5f5f;
+}
+
+button.mediatext:hover {
+    color: #5f5f5f;
+}
+
+.mediatext {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5f5f5f;
+}
+
+i {
+    color: gray;
+    margin-top: 8px;
+}
+
+i:hover {
+    color: black;
+}
+
+input.content {
+    border-radius: 40px;
+    height: 45px;
+}
+
+#gonderiBaslat::placeholder {
+    font-weight: bolder;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/images/edit-regular.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-left: 20px;
+    padding-left: 30px;
+}
+
+div.card {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.view {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #5f5f5f;
+}
+
+.categories {
+    font-size: 13px;
+    font-weight: bold;
+    color: #0a66c2;
+}
+
+li {
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+}
+
+.link {
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #5f5f5f;
+}
+
+button.ref {
+    color: white;
+}
+
+button.ref:hover {
+    color: #5f5f5f;
+}
+
+.postphoto {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.posttext {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 8px;
+}
+
+.card {
+    margin-top: 75px;
+}
+
+.navbar-nav {
+    margin-left: 760px;
+    background-color: white !important;
+    border-bottom: 1px solid rgb(216, 212, 212) !important;
+}
+
+.collapse {
+    background-color: white !important;
+    border-bottom: 1px solid rgb(216, 212, 212) !important;
+}
+
+#firstCard {
+    margin-top: 10px !important;
+}
+
+.card-header {
+    background-color: white !important;
+    border-bottom: none !important;
+}
+
+.ref {
+    border: none !important;
+    background-color: white !important;
+}
+
+#okSign {
+    margin-left: 20px;
+}
+
+#profilPic {
+    width: 70px;
+    height: 70px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#whoViewed,
+#whoViewed2 {
+    font-size: 10px;
+}
+
+#fotograf {
+    fill: #70B5F9 !important;
+    background-color: white !important;
+}
+
+#video {
+    fill: #7FC15E !important;
+    background-color: white !important;
+}
+
+#etkinlik {
+    fill: #E7A33E !important;
+    background-color: white !important;
+}
+
+#yaziyaz {
+    fill: #F5987E !important;
+    background-color: white !important;
+}
+
+.mediatext {
+    border-style: none !important;
+    background-color: white !important;
+}
+
+#takipEt {
+    color: #0a66c2;
+    border: 2px solid #0a66c2;
+    background-color: white;
+    border-radius: 50px;
+}
